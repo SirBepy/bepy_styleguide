@@ -1,17 +1,18 @@
 /* Glacier - Dark */
 [data-theme="glacier"] {
-  --color-primary: #60a5fa;
-  --color-primary-rgb: 96, 165, 250;
-  --color-secondary: #93c5fd;
+  --color-primary: #38bdf8;
+  --color-primary-rgb: 56, 189, 248;
+  --color-secondary: #22d3ee;
   --color-accent: #38bdf8;
-  --color-background: #0d1117;
-  --color-surface: #161b22;
-  --color-surface-alt: #1c2433;
-  --color-text: #cdd9e5;
-  --color-text-muted: #768390;
-  --color-border: #30363d;
-  --color-success: #56d364;
-  --color-info: #79c0ff;
+  --color-background: #0c1a24;
+  --color-surface: #112430;
+  --color-surface-alt: #162e3c;
+  --color-text: #e0f0f8;
+  --color-text-muted: #5e8fa0;
+  --color-border: #1e3a4c;
+  --color-success: #34d399;
+  --color-danger: #f87171;
+  --color-info: #22d3ee;
   --font-heading: "Inter", system-ui, sans-serif;
   --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-mono: "Fira Code", monospace;
@@ -23,18 +24,19 @@
 
 /* Glacier - Light */
 [data-theme="glacier"][data-mode="light"] {
-  --color-primary: #3b82f6;
-  --color-primary-rgb: 59, 130, 246;
-  --color-secondary: #60a5fa;
-  --color-accent: #0ea5e9;
-  --color-background: #eaeff4;
-  --color-surface: #f2f5f9;
-  --color-surface-alt: #e6ecf2;
-  --color-text: #1a2030;
-  --color-text-muted: #5e6e82;
-  --color-border: #c8d0d8;
-  --color-success: #1a9e3f;
-  --color-info: #3b82f6;
+  --color-primary: #0284c7;
+  --color-primary-rgb: 2, 132, 199;
+  --color-secondary: #0891b2;
+  --color-accent: #0284c7;
+  --color-background: #eef6fa;
+  --color-surface: #ffffff;
+  --color-surface-alt: #e0f0f6;
+  --color-text: #0c2430;
+  --color-text-muted: #6a9aac;
+  --color-border: #c4dce8;
+  --color-success: #059669;
+  --color-danger: #dc2626;
+  --color-info: #0891b2;
   --badge-tech-bg: #dfe6ee;
   --shadow-card: 0 4px 16px rgba(50,80,120,0.08);
 }
