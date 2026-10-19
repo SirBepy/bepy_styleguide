@@ -8,7 +8,7 @@
   --color-surface: #112430;
   --color-surface-alt: #162e3c;
   --color-text: #e0f0f8;
-  --color-text-muted: #5e8fa0;
+  --color-text-muted: #6d99a9;
   --color-border: #1e3a4c;
   --color-success: #34d399;
   --color-danger: #f87171;
@@ -32,11 +32,23 @@
   --color-surface: #ffffff;
   --color-surface-alt: #e0f0f6;
   --color-text: #0c2430;
-  --color-text-muted: #6a9aac;
+  --color-text-muted: #477180;
   --color-border: #c4dce8;
   --color-success: #059669;
   --color-danger: #dc2626;
   --color-info: #0891b2;
   --badge-tech-bg: #dfe6ee;
   --shadow-card: 0 4px 16px rgba(50,80,120,0.08);
+}
+
+/* Glacier - Domain tokens (AUQ question-card chips). */
+[data-theme="glacier"] {
+  --color-domain-ux: #38bdf8; --color-domain-arch: #818cf8; --color-domain-sec: #f87171;
+  --color-domain-data: #34d399; --color-domain-tooling: #f182f7;
+  --color-domain-infra: #fb923c; --color-domain-billing: #2dd4bf;
+}
+[data-theme="glacier"][data-mode="light"] {
+  --color-domain-ux: #0284c7; --color-domain-arch: #4f46e5; --color-domain-sec: #dc2626;
+  --color-domain-data: #059669; --color-domain-tooling: #b817b2;
+  --color-domain-infra: #c2600f; --color-domain-billing: #0d9488;
 }
