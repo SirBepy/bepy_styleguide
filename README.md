@@ -5,7 +5,7 @@ Joe's design system, hosted on CDN via GitHub Pages.
 ## What's here
 
 - **Styleguide explorer** - `index.html` showcases all components, typography, colors, and utilities
-- **4 themes** - Void, Glacier, Cosmo, Nebula - all using CSS custom properties
+- **16 themes** - each with a dark and a light variant, all using CSS custom properties
 - **Settings widget** - floating gear button with theme switcher, background, and about panel
 - **Compiled styleguide** - `styleguide.css` with reusable component classes
 
@@ -21,12 +21,26 @@ https://cdn.jsdelivr.net/gh/sirbepy/sirbepy-styleguide@main/styleguide.css
 
 ## Themes
 
-| Theme       | Description           |
-| ----------- | --------------------- |
-| **Void**    | Dark purple - default |
-| **Glacier** | Cool blue-grey        |
-| **Cosmo**   | Vibrant and colorful  |
-| **Nebula**  | Deep space tones      |
+| Theme           | Description           |
+| --------------- | --------------------- |
+| **Void**        | Dark purple - default |
+| **Glacier**     | Cool blue-grey        |
+| **Cosmo**       | Vibrant and colorful  |
+| **Nebula**      | Deep space tones      |
+| **Forest**      | Deep green            |
+| **Ember**       | Warm amber            |
+| **Graphite**    | Neutral gray          |
+| **Crimson**     | Deep red              |
+| **Catppuccin**  | Mocha / Latte         |
+| **Gruvbox**     | Retro warm            |
+| **Nord**        | Arctic blue           |
+| **Solarized**   | Classic low contrast  |
+| **Tokyo Night** | Night / Day           |
+| **Rose Pine**   | Main / Dawn           |
+| **Dracula**     | Dracula / Alucard     |
+| **One**         | One Dark / One Light  |
+
+Each file declares `[data-theme="<id>"]` (dark) and `[data-theme="<id>"][data-mode="light"]` (light), plus `--color-domain-*` tokens for question-card chips. The settings widget's theme switcher still lists only the original four (`FALLBACK_THEMES` in `widget/settings.js`).
 
 All themes define CSS custom properties (`--color-primary`, `--font-heading`, `--radius-card`, etc.) that the styleguide components consume.
 

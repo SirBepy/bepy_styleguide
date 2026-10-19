@@ -1,7 +1,7 @@
 # Token Map — claude_usage / kit → styleguide
 
 Canonical token vocabulary for the unified Tauri look is the styleguide's `--color-*`
-set (defined per palette × mode in `themes/theme-{void,nebula,glacier,cosmo}.css`).
+set (defined per palette × mode in `themes/theme-*.css`).
 claude_usage and `sirbepy_tauri_kit` migrate onto these names; their old token names
 are retired (temporary `var(--color-*)` aliases allowed only to stage the migration).
 
